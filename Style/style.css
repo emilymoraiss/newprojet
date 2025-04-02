@@ -1,0 +1,94 @@
+:root {
+    color: rgb(35, 19, 177);
+    color: rgb(72, 196, 196);
+    color: darkgrey;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial, sans-serif;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(197, 121, 121);
+}
+
+.navbar {
+    background-color: var(--priramy);
+    width: 100%;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar h1 {
+    font-family: "Oswald", sans-serif;
+    font-size: 2.Sem;
+}
+
+.navbar input {
+    padding: 5px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    transform: scale(1.05);
+}
+
+.banner {
+    width: 80%;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    margin: 20px auto;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.card {
+    width: 200px;
+    border: 1px solid var(--priramy);
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    background: white;
+    box-shadow: 2px 4px 10px var(--gray);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 4px 4px 15px var(--gray);
+}
+
+footer {
+    width: 100%;
+    background-color: var(--priramy);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 0;
+}
